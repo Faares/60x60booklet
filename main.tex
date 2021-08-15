@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{biblatex}
+\usepackage{braket}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\addbibresource{ref.bib}
+
+\makeatletter
+\def\@fnsymbol#1{\ensuremath{\ifcase#1\or \dagger\or \ddagger\or
+   \mathsection\or \mathparagraph\or \|\or **\or \dagger\dagger
+   \or \ddagger\ddagger \else\@ctrerr\fi}}
+\makeatother
+    
+\title{A light introduction to Advance Mathematics: an Abstract Algebra Approach}
+
+\author{Fares AlHarbi \thanks{Independent, \href{mailto:faares@acm.org}{Faares@acm.org}.}}
+\date{August 2021}
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+    This booklet written to be used in \hyperlink{https://salla.sa/durba/RYePmz}{60x60} event, to provide the big picture of advance mathematics and how mathematician's really work. No deep technical nor tough subjects, It's written with intuition and simplicity in mind. 
+\end{abstract}
+
+\clearpage
+\tableofcontents 
+
+\include{introduction}
+\input{digging-technical/introduction}
+\input{digging-technical/basics/intro}
+\input{digging-technical/basics/set}
+\clearpage
+\input{digging-technical/basics/relation}
+\input{digging-technical/basics/mapping}
+\subsection{Operation}
+
+\section{Algebraic Structure's}
+
+\subsection{Group}
+
+\subsection{Rings}
+
+\subsection{Fields}
+
+\clearpage
+\printbibliography[heading=bibintoc]
+
+\end{document}

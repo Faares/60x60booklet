@@ -1,0 +1,45 @@
+\subsection{Sets}
+What is {\it set}? Generally speaking, its a collection of things. I would rather say a {\it Container} for objects, we put things in and work on it. Symbolically:
+$$
+S = \set{x \mid P(x)}
+$$
+where $P(x)$ the characterization property i.e. what decide does the element can be in the set or not.
+\subsubsection{Basic Concepts}
+\paragraph{Membership.}
+Let's say we have an object $y$ , if the object belongs to the set -i.e. satisfying the $P(x)$- we write $y \in S$ if not $y \not\in S$.
+\paragraph{Union.}
+If we have $A,B,C$ as sets, and we wanted to group all of their elements in one set $S$. How to do that? We use the {\it Union} operation, symbolically:
+\begin{align*}
+        \space A = \set{a} , && B = \set{b} , && C = \set{c} \\
+        \\ 
+        A \cup B = \set{a,b} && A \cup C = \set{a,c} && B \cup C = \set{b,c} \\
+        \\
+        && A \cup B \cup C = \set{a,b,c}
+\end{align*}
+\paragraph{Intersection.}
+Same as {\it Union } except we want to group all of the common elements between sets:
+\begin{align*}
+        \space A = \set{a,b} , && B = \set{b} , && C = \set{b,c} \\
+        \\ 
+        A \cap B = \set{b} && A \cap C = \set{\space} = \phi && B \cap C = \set{b} \\
+        \\
+        && A \cap B \cap C = \set{b}
+\end{align*}
+\paragraph{Subset.}
+TODO.
+\subsubsection{Special Sets}
+There are special sets in Mathematics, we talk and use them on daily basis. Here are some:
+\begin{center}
+\begin{tabular}{| c | c | c | }
+\hline
+Symbol & Name & Definition \\
+\hline
+$\mathbb{N}$      & Natural Numbers & $\set{1,2,3,4,5,6,..}$ \\
+$\mathbb{Z}$      & Integers  & $\set{..,-2,-1,0,1,2,..}$        \\
+$\mathbb{Q}$      & Rational Numbers & $\set{ \frac{a}{b} \mid a,b \in \mathbb{Z}, b \neq 0}$  \\
+$\mathbb{I}$      & Irrational Numbers & $\set{ x \mid x \not\in \mathbb{Q}}$ \\
+$\mathbb{R}$      & Real Numbers  &  $\mathbb{Q} \cup \mathbb{I}$  \\
+$\mathbb{\phi}$   & Empty set   &   The nothing set! e.g. $A \cap \  C$ \\
+\hline
+\end{tabular}
+\end{center}

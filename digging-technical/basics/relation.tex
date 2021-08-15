@@ -1,0 +1,75 @@
+\subsection{Relations}
+
+\subsubsection{Ordered Pair}
+We already defined sets and learned the basic concepts. But until now we didn't study how they interact with each other and what's the nature of it. To accomplish that, we need to introduce a new concept associate an element from set $A$ with an element from $B$ set or from and into the set of it self e.g. from $A$ to $A$.
+This new concept called {\it Ordered Pair}, symbolically:
+$$
+    (a,b) \mid a \in A, b \in B
+$$
+Whenever we write it, we mean there exist an association between $a$ and $b$. A marked note to remember: {\it The order of the element is important:
+$$
+    (a,b) \neq (b,a)
+$$
+} The reason behind is because the right hand side (RHS) associate $a$ with $b$, while the left hand side (RHS) associate $b$ with $a$ and the meaning is broadly different! as we will see later \footnote{in \ref{relation.define} Examples, you can see it clearly with order relationships.}. Needless to say, we didn't specify the nature of that association yet.
+\subsubsection{Define Relationship \label{relation.define}}
+The {\it Ordered Pair} associate one element from a set with a one from another. What about sets? how can we associate a set with another? the answer is by {\it Cartesian Product}: the set of all possible ordered pairs combined from the two sets. Symbolically:
+$$
+A \times B = \set{(a,b) \mid a \in A \ and \  b \in B}
+$$
+
+A relationship $R$ is {\it the set of ordered pairs $(a,b)$ satisfying $aRb$, which is a subset of $A \times B$}. 
+\paragraph{Examples. }
+\begin{align*}
+        \space A = \set{1,2} , && B = \set{2,3} , && C = \set{4,5}
+\end{align*}
+\begin{align*}
+        A \times B = \set{(1,2),(1,3),(2,2),(2,3)} \\
+        B \times A = \set{(2,1),(3,1),(2,2),(3,2)} \\
+        A \times A = \set{(1,1),(1,2),(2,1),(2,2)} \\
+\end{align*}
+\begin{itemize}
+    \item Equality relationship ($=$):
+        \begin{itemize}
+            \item  on $A \times B$: $\set{(2,2)}$.
+            \item on $B \times A$: $\set{(2,2)}$.
+        \end{itemize}
+    \item Less than relationship ($<$):
+        \begin{itemize}
+            \item  on $A \times B$: $\set{(1,2),(1,3),(2,3)}$.
+            \item  on $B \times A$: $\phi$.
+        \end{itemize}
+    \item Less than or equal relation ($>$):
+        \begin{itemize}
+            \item  on $A \times B$: $\phi$.
+            \item  on $B \times A$: $\set{(2,1),(3,1),(3,2)}$.
+        \end{itemize}
+    \item Less than or equal relation ($\leq$):
+        \begin{itemize}
+            \item  on $A \times B$: $\set{(1,2),(1,3),(2,2),(2,3)}$.
+            \item  on $B \times A$: $\set{(2,2)}$.
+        \end{itemize}
+\end{itemize}
+
+\subsubsection{Properties of Relationships}
+% We defined a relationship, now it's the time to study it! mathematician's founds a general properties help us in determining the behaviour of the relationship, moreover, it's help us to define a complex relationship gives us a wonderful results as we will see later \footnote{In the next section, we will see how the equivalence relation gives us a partition on the set.}.
+
+When we define a relation on a set, we create a vagus patterns. Figuring it out help us to know {\it how the elements of the set are behaves under that relationship}, which gives a rich and clear understanding of the set objects. Moreover, it will expands our knowledge and maybe knock closed doors in research.
+
+For technical reasons, we will assume there exist a set $S$ for the following definition.
+\paragraph{Reflexivity} 
+A relation $R$ is {\bf Reflexive} relation if and only if for every element in the set $S$ is associated with it self. Formally $aRa$ for all $a \in S$.
+\paragraph{Symmetry} 
+A relation $R$ is {\bf Symmetric} relation if and only if $a$ associated with $b$ then $b$ is also associated with $a$, Formally if $aRb$ then $bRa$.
+
+\paragraph{Transitivity} 
+A relation $R$ is {\bf Transitive} relation if and only if $a$ associated with $b$ and $b$ associated with $c$, then $a$ also associated with $c$. Formally if $aRb$ and $bRc$ then $aRc$
+
+\paragraph{Order Relations} Some relations rearrange the elements to a specific order. For example, take less than or equal $\leq$ relation on $\mathbb{Z}$, you can easily figure out that for any $z_1,z_2 \in Z$ either $z_1 \leq z_2$ or $z_2 \leq z_1$, these relations are  very useful when working on something like Lattice Theory \cite{enwiki:945896905} and others \cite{enwiki:1038741711}! We will not going forward, it's enough to know these relations for now.
+\vspace{20pt}
+
+
+
+
+
+% \subsubsection{Equivalence and Partition}
+ 
