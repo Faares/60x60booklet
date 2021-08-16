@@ -8,6 +8,7 @@
 \usepackage{amssymb}
 \addbibresource{ref.bib}
 
+% Footnote symbol.
 \makeatletter
 \def\@fnsymbol#1{\ensuremath{\ifcase#1\or \dagger\or \ddagger\or
    \mathsection\or \mathparagraph\or \|\or **\or \dagger\dagger
@@ -23,20 +24,25 @@
 
 \maketitle
 \begin{abstract}
-    This booklet written to be used in \hyperlink{https://salla.sa/durba/RYePmz}{60x60} event, to provide the big picture of advance mathematics and how mathematician's really work. No deep technical nor tough subjects, It's written with intuition and simplicity in mind. 
+    This booklet written to be used in \hyperlink{https://salla.sa/durba/RYePmz}{60x60} event,
+    to provide the big picture of advance mathematics and how mathematician's really work.
+    No deep technical nor tough subjects, It's written with intuition and simplicity in mind. 
 \end{abstract}
 
 \clearpage
 \tableofcontents 
 
+% Booklet introduction
 \include{introduction}
+
+% Technical introduction
 \input{digging-technical/introduction}
 \input{digging-technical/basics/intro}
 \input{digging-technical/basics/set}
 \clearpage
 \input{digging-technical/basics/relation}
 \input{digging-technical/basics/mapping}
-\subsection{Operation}
+\input{digging-technical/basics/operation}
 
 \section{Algebraic Structure's}
 
