@@ -3,7 +3,7 @@
 I assume by now, you noticed that we started by a collection of things - the set elements -, putted them into a bag - the set -, and lastly associate its elements with each other - by relationship -. All of that's gaves us a vagus pattern we can determine it by the relations properties we learned! 
 Eventually all of what we have done so far are an internal study, we didn't do any external movements on the elements, like: transfer, shifting, or even combined two elements to produce one. Mapping and Operation are the two mathematical concepts did that.
 
-\subsubsection{What is mapping?}
+\subsubsection{Mapping, What is that?}
 I like the term {\it Mapping}, because its so fruitful semantically. When we lost in the desert, we can use a {\it Map} to decide which direction have to take, the same map takes a piece of Earth surface and {\it associate} each point of it with a point on a piece of paper. That's mapping!
 
 Mapping is all about {\it doing association on a certain condition or rule}. Something like: Take a point from the Earth surface, scale it down by a specific ratio, then draw it again on the same position in the paper.
@@ -12,13 +12,24 @@ Some people call it {\it Function} other {\it Mapping}, but still it's the same 
 
 \paragraph{Mapping.} 
 Given two sets $O$,$D$ we say $f(x)$ is a map from $O$ to $D$ if: 
-    for every element $o \in O$ there exist a destination element $d \in D$, such that $f(o)=d$.
+    
+    \underline{for every element $o \in O$} there exist \underline{a one and only one} destination element $d \in D$, such that $f(o)=d$.
 
 \subsubsection{Types of Mapping}
-There are several types of mapping \footnote{Actually, mathematician's admiring define new types and create their own tools, see section \ref{intro.work}.}, here are the important one's:
+There are several types of mapping \footnote{Actually, mathematicians admiring define new types and create their own tools, see section \ref{intro.work}.}, here are the important one's:
 \begin{itemize}
     \item A map $f(x)$ called {\bf Injective} if every \underline{associated} element in the {\it Destination} set associated with \underline{only one element} in the {\it Original} set. Formally, if $o_1 = o_2$ then $f(o_1) = f(o_2)$.
     \item A map $f(x)$ called {\bf Surjective} if every element in the {\it Destination} set associated with an element in the {\it Original} set. Formally, for every $d \in D$ there exist $o \in O$ such that $f(o)=d$ or $f(O)=D$.
-    \item A map $f(x)$ called {\bf Bijective} if it injective \underline{and} surjective.\footnote{Other books maybe call the three as {\it  one to one, onto, and one to one and onto} respectively.}
+    \item A map $f(x)$ called {\bf Bijective} if it both injective \underline{and} surjective.\footnote{Other books maybe call the three as {\it  one to one, onto, and one to one and onto} respectively.}
 \end{itemize}
+\subsubsection{The Inverse Map} You can think and ask your self: Ok, I mapped an element $o \in$ {\it Original} to another $f(o) = d \in$ {\it Destination}, how can I get $o$ If I know $d = f(o)$? 
+
+You have $d$, and $f$ only. To answer the question, the first thing you have to do is to check the map $f$ it self. To decide does it {\bf Injective} or not. Why? assume $f$ not injective, that means $d$ could be associated with two different element in the {\it Original} set, so you cannot determine which one is the correct one! Another reason, is because if we associate two elements with $d$ that deny us from defining a mapping from the {\it Destination } set to the {\it Original} set, since it violate the \underline{the only and only one} rule.
+
+Secondly, you have to check does the map $f$ {\bf Surjective} or not. Why? Again you have $d \in$ {\it Destination} and $f$ only. If $f$ not surjective, that means $d$ may not associated with any element at all! You will waste your time and get thing, because nothing there at all! Another reason, is because that also will deny us from defining a map from the {\it Destination } set to the {\it Original} set, since it violate the \underline{every element in {\it Original} must associate with another} rule.
+
+If the map $f$ passed the previous two tests, that means it's {\bf Bijective} and now you can define what we call the {\bf Inverse Map} denoted by $f^{-1}$. The main goal of this map is to reverse the original map operation. For example let say we have a map $f(x)=2x$ from $\mathbb{Z}$ to $\mathbb{Z}$, the inverse map will be $f^{-1}(x)=\frac{x}{2}$, in other word if we composite the two maps we will get the base element: $f(1)=2(1)=2$ and $f^{-1}(2)=\frac{2}{2}=1$, so $f^{-1}(f(1))=\frac{2(1)}{2}=\frac{2}{2}=1$.
+
+Clearly not all maps have an inverse map. But of course, if the map bijective then it have an inverse map. The idea behind finding the inverse map if it passed the two tests is very basic, {\it by reversing all the operations in the original map with the reverse order}. For example if you see addition reverse it by subtraction, multiplication by division, multiplication then addition by subtraction then division \footnote{The reverse concept is very importation especially in Algebra and any algebraic system overall. We will study it widely later, so make sure you understands this section well.}.
+
 An interesting to say, there are bunch of branches in mathematics specialized in Mapping and their types. It's a fundamental concept in modern mathematics, almost any branch in mathematics have his own functions, their types and applications.
