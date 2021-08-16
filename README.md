@@ -4,7 +4,7 @@
 
 This booklet written to be used in [60x60](https://salla.sa/durba/RYePmz) event, to provide the big picture of advance mathematics and how mathematician's really work. No deep technical nor tough subjects, It's written with intuition and simplicity in mind. 
 
-Checkout [workflow artifacts](https://github.com/Faares/60x60booklet/actions/workflows/main.yml) to download the PDF version. 
+You can download the latest [PDF version here](https://github.com/Faares/60x60booklet/blob/master/main.pdf). 
 ## Change log
 
 * **15 Aug 2021** - First publish.
