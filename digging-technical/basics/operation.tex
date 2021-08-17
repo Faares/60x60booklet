@@ -1,2 +1,14 @@
 \subsection{Operation}
+We saw that mapping is the way to {\it do something}, takes one -or more than one from the same set- input  and produce an output. {\it Operation} is similar to map, but with no restriction on the original set. Generally, an {\it Operation} could takes different inputs from different sets, and produce one output.
 
+\subsubsection{Abstract and generalize}
+A good example for operation is the basic arithmetic operations {\it Addition} and {\it Subtraction}, you can add or subtract numbers from different sets, for example define addition operation as $+_1:\mathbb{Z}\times \mathbb{Q}\longrightarrow\mathbb{Q}$ or $+_2:V\footnote{$V$ refers to Vector Space. } \times V\longrightarrow V$, they do the same thing, but on different sets which eventually leads to distinct results. In {\it Operation} we generalize our naive concept about addition and subtraction..etc to new area: It's not bounded by anything except the nature of sets elements: numbers, sets, vectors..etc. In other word, we abstract the nature of the operation and apply it to different objects.
+
+To state the obvious, $+_1$ will takes two numbers, one from integers the other from rational, and produce of course a rational number. But $+_2$ even it's an addition, but on vectors instead of numbers, taking two vectors and return a new vector.
+
+One can think of something like: {\it Can we takes two elements from the same set, and produce a completely different object?}. Actually, that's one of the powerful properties operation gave us. Take for example what we call in Vector Calculus the {\it Scalar Product} defined as $\mathbb{\cdot}:V\times V\longrightarrow\mathbb{R}$ which takes two vectors and return a scalar quantity can be used to answer: does they perpendicular or not?\footnote{A famous result in Vector Calculus, states that two vectors $a,b \in \mathbb{V}$ are perpendicular if their scalar product equal zero.}
+
+\subsubsection{Operation as algebraic system}
+When we equip a set $S$ with an operation $\cdot$ like this $(S,\cdot)$ we create what we call a {\it System}. A number of elements with specific operation let us manipulate them under.
+
+There is an interesting property if it occurs in the system, that leads to be mathematically impressive. They call it {\it Closure property}, and we say {\it the system is algebraically closed} or {\it the system is closed} if the operation defined takes elements from the equipped set and output an element in the same set, symbolically $\cdot: S\times S\longrightarrow S$\footnote{Nice to mention that The Fundamental Theorem of Algebra states that the Complex Numbers $\mathbb{C}$ are algebraically closed, see \cite{enwiki:1023272575}.}.
