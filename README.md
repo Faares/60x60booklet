@@ -6,7 +6,7 @@ This booklet written to be used in [60x60](https://salla.sa/durba/RYePmz) event,
 
 You can download the latest [PDF version here](https://github.com/Faares/60x60booklet/blob/master/main.pdf). 
 ## Change log
-* **19 Aug 2021** - Finished the second part, and started in the third: Algebraic Structures.
+* **19 Aug 2021** - Finish the second part, and started in the third: Algebraic Structures.
 * **18 Aug 2021** - Add Operation, Algebraic System, and cite a history book. 
 * **17 Aug 2021** - Add the Inverse Map section with tiny modification. 
 * **15 Aug 2021** - First publish.
