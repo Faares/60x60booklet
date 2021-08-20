@@ -1,13 +1,20 @@
-\section{Group \label{group}}
+\section{Groups \label{group}}
 \subsection{Prologue}
 Look at the integer set $\mathbb{Z}$, look into it again with the addition. Again, look and think about the behavior of $0$ with them. In school, we learned the natural numbers $\mathbb{N}$ then the integers $\mathbb{Z}$, the Group structure is the evolution to the next step. It takes the properties of the system $(\mathbb{Z},+)$ to the next level. Abstract it, with elegancy.
 
 \subsection{Symmetry, The Shape of Nature}
-WIP.
+Newton in his third law states a beautiful way for looking over the nature, he extended the quantity with reversing the direction. The same thing, but in the opposite direction and if they combined together we have the nothing: Zero. This is symmetry. This is what Group Structure orchestrate\footnote{Well, The Standard Model also \cite{enwiki:1038581383}.}.
 
 \subsection{Group, Formally}
-WIP.
 
+$(G,\cdot)$ is Group if and only if:
+\begin{itemize}
+   \item $(G,\cdot)$ is closed system.
+   \item The operation $\cdot$ Associative: $a \cdot (b \cdot c) = (a \cdot b) \cdot c$ for all $a,b,c \in G$. In simple words: The order of applying the operation doesn't matter.
+   \item There exist an element $e \in G$ such that $g \cdot e = e \cdot g = g$ for all $g \in G$. In simple words: $e$ doesn't affect or effect under the operation. We call $e$ the {\it Identity} element.
+   \item For all $g \in G$, there exist another $g_1 \in G$ such that $g \cdot g_1 = g_1 \cdot g = e$, In simple words: They reverse each other under the operation, to produce the nothing: Identity. We call $g_1$ the {\it Inverse} of $g$ and denote it by $g^{-1}$.
+\end{itemize}
+A clear and perfect example for Group is $(\mathbb{Z},+)$: $e = 0$, pick any $g \in G$, for example $g = 2$, then $g^{-1}=-2$, calculate $g + g^{-1} = 2 + -2 = ( e = 0 ) = -2 + 2 = g^{-1} + g = e$ \footnote{I will not prove anything in this booklet, but the reader can go to  \cite{fraleigh2003a}, and \cite{beardon2005algebra} for advance.}.
 
-\subsection{Counting Without Counting}
+\subsection{Some Theorems, Important Examples, and Applications}
 WIP.
