@@ -1,0 +1,26 @@
+\section{Rings \label{ring}}
+\subsection{Prologue}
+Until now, we worked on a system with one operation. Rings, unlike Group it has two equipped operations. Essentially, it developed to generalize two main ideas: number of operations, and Addition with Multiplication idea, especially the third, it the abstraction of them. As in \cite{61505} they name it "Ring" because of that closure property, with circulation. Rings is important in studying Polynomials\footnote{Recall Polynomial formula: $a_nx^n+a_{n-1}x^{n-1}+...+a_0x^{0}$}, Algebraic Geometry, and a variant of subjects.
+
+Since Rings as mentioned has two operation, we have to be careful about their relationship. We will see how it should be.
+\subsection{Rings, Formally}
+The axioms of Rings can be divided into three parts: axioms for Addition, Multiplications, and their relationship.
+
+We say $(R,+,\cdot)$ is a Ring, it satisfy:
+\begin{itemize}
+    \item $+$ axioms:
+    \begin{itemize}
+        \item $(R,+)$ is Group. 
+        \item And for all $a,b \in R$: $a+b=b+a$\footnote{If any Group satisfy this property, we call it {\it Commutative Group} or {\it Abelian Group}.}.
+    \end{itemize}
+    \item $\cdot$ axioms:
+    \begin{itemize}
+        \item For any $a,b,c \in R$: $a \cdot (b \cdot c) = (a \cdot b) \cdot c$ -- Associativity of $\cdot$.
+    \end{itemize}
+    
+    \item $+,\cdot $ relationship axioms:
+    \begin{itemize}
+        \item For any $a,b,c \in R$: $a \cdot (b + c) = a \cdot b + a \cdot c$ -- Right Distributivity.
+        \item For any $a,b,c \in R$: $(a + b) \cdot c = a \cdot c + b \cdot c$ -- Left Distributivity.
+    \end{itemize}
+\end{itemize}
