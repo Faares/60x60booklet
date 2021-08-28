@@ -6,6 +6,7 @@ This booklet written to be used in [60x60](https://salla.sa/durba/RYePmz) event,
 
 You can download the latest [PDF version here](https://github.com/Faares/60x60booklet/blob/master/main.pdf). 
 ## Change log
+* **28 Aug 2021** - Finish Rings. Looking forward to Fields.
 * **24 Aug 2021** - Start in Rings: Prologue, definition. Remove unnecessary sections.
 * **20 Aug 2021** - Start in Groups: Prologue, definition.
 * **19 Aug 2021** - Finish the second part, and started in the third: Algebraic Structures.
@@ -20,6 +21,3 @@ You can download the latest [PDF version here](https://github.com/Faares/60x60bo
 
 - **Author:** [Fares AlHarbi](https://faares.com).
 - **License:** This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-
-
