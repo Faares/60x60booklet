@@ -6,6 +6,7 @@ This booklet written to be used in [60x60](https://salla.sa/durba/RYePmz) event,
 
 You can download the latest [PDF version here](https://github.com/Faares/60x60booklet/blob/master/main.pdf). 
 ## Change log
+* **29 Aug 2021** - Start in Fields: Prologue.
 * **28 Aug 2021** - Finish Rings. Looking forward to Fields.
 * **24 Aug 2021** - Start in Rings: Prologue, definition. Remove unnecessary sections.
 * **20 Aug 2021** - Start in Groups: Prologue, definition.
