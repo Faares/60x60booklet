@@ -3,8 +3,30 @@
 \subsection{Prologue}
 The end of the last section was tricky, and it was intended for a purpose. Fields are very related to Rings, it developed over Rings, unlike the relation Rings and Groups. Every Field is a Ring with certain restriction conditions.
 
-Mainly, Field developed to solve polynomials equations, side by side with Galois Theory, and other theories developed to solve equations with degrees 4,5, and more. But, I would rather -and prefer- to introduce it as a geometric concept instead of an algebraic. Why? I think its properties have geometric richness over algebraic. Even if we introduced the {\it extension} idea, it's clear that "Bigger" you have to pass through, needless to mention the relationship between the degree of the extension field and Vector Space.
+Mainly, Fields developed to solve polynomials equations, side by side with Galois Theory, and other theories developed to solve polynomials equations with degrees 4,5, and more. But, I would rather -and prefer- to introduce it as a geometric concept instead of an algebraic. Why? I think its properties have geometric richness over algebraic. Even if we introduced the {\it extension} idea, it's clear that "Bigger"\footnote{For example, $\mathbb{C}$ is the extension field of $\mathbb{R}$, which can be represented by $0i+x, x \in \mathbb{R}$ which is a line in the Complex Plane, the same for $\mathbb{Q}$ with respect to $\mathbb{R}$, it's a line with "gap points -- irrationals", $\mathbb{R}$ is the extension field of $\mathbb{Q}$.  } is what you have to pass through, needless to mention the relationship between the degree of the extension field and Vector Space.
 
 Fields, as far as I can see, is the new form of the connected line between Numbers and Geometry, Discrete and Continues, a new and more abstracted form of $xy$-plane. Usually, we use $\mathbb{R}$ with simple $xy$-plane, now we use Field $\mathbb{F}$ with a set of vectors $V$ to define a Vector Space $\mathbb{V}= (V, \mathbb{F})$ -- The generalization of $xy$-plane.
 
 \subsection{Fields, Formally}
+We already defined Fields using Rings. However, in mathematics we can always do the same job with a different approach. Here, we will define Fields by axioms instead of Rings with restricted conditions\footnote{Ring, satisfying Integral Domain and Division Ring conditions.}.
+
+Lets say we have a system $(F,+,\cdot)$, we call it {\it Field} if and only if:
+\begin{itemize}
+    \item Axioms for $(F,+)$:
+    \begin{enumerate}
+        \item $(F,+)$ form Abelian Group.
+    \end{enumerate}
+    \item Axioms for $(F,\cdot)$:
+    \begin{enumerate}
+        \item $\cdot$ is Associative.
+        \item $\cdot$ is Commutative.
+        \item There exist $0 \neq 1 \in F$ such that $1a = a1 = a$ for any $a \in F$.
+        \item There exist $a^{-1} \in F$ such that $a^{-1}a = aa^{-1} = 1$ for any $0 \neq a \in F$.
+    \end{enumerate}
+    \item Axioms for the relation between $+$ and $\cdot$:
+    \begin{enumerate}
+        \item $1 \neq 0$ -- The addition and multiplication identities are distinct.
+        \item The multiplication is distributed over addition.
+    \end{enumerate}
+\end{itemize}
+That's it! It's a system, where you can add, subtract, multiply, and divide.
